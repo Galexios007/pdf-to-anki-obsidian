@@ -1,0 +1,36 @@
+# ─── Secrets ──────────────────────────────────────────
+.env
+
+# ─── Python ───────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# ─── Données personnelles (non versionnées) ───────────
+# Tes PDFs de cours — ne jamais pousser sur GitHub
+cours_pcsi/
+
+# ─── Sorties générées (locales uniquement) ────────────
+obsidian_vault/
+anki_output/
+
+# ─── État du pipeline (spécifique à chaque machine) ───
+pipeline_state.json
+batch_state.json
+logs/
+
+# ─── IDE ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

@@ -1,0 +1,11 @@
+# Pipeline PDF → Anki + Obsidian
+# Python 3.10+
+
+# API Anthropic (obligatoire)
+anthropic>=0.40.0
+
+# Support fichier .env (recommandé — optionnel)
+python-dotenv>=1.0.0
+
+# Comptage de pages PDF — utils/comptage.py uniquement (optionnel)
+pypdf>=4.0.0
