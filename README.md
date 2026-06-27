@@ -1,5 +1,9 @@
 # PDF → Anki + Obsidian (PCSI)
 
+> **⚠️ Déclaration de co-ingénierie (IA / Humain)**
+> L'architecture de traitement, les prompts système et le pipeline d'ingestion ont été co-conçus avec l'assistance d'une intelligence artificielle. Chaque module a été audité pour garantir l'intégrité des données académiques et validé par une itération humaine pour assurer la cohérence logique du graphe de connaissances généré.
+
+Ce projet est un moteur d'ingestion automatisée conçu pour transformer des supports de cours académiques (PCSI/CPGE) en un écosystème de révision structuré. Il utilise l'**API Batch d'Anthropic (Claude 3.5 Sonnet)** pour traiter massivement les documents, garantissant une optimisation des coûts (-50% sur les tokens) et une résilience totale aux interruptions réseau.
 Pipeline d'ingestion automatisée de cours PCSI scanné vers :
 - 🃏 **Flashcards Anki** (CSV importable, LaTeX rendu via MathJax)
 - 🔗 **Graphe de connaissances Obsidian** (notes atomiques, liens embed, KaTeX)
